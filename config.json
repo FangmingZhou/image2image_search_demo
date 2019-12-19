@@ -1,0 +1,8 @@
+{
+ "rootpath": "/home/xcx/VisualSearch",
+ "max_hits": 50,
+ "trainCollection": "tv2016train",
+ "testCollection": "tv2017test",
+ "feature": "pyresnext-101_rbps13k,flatten0_output,os",
+ "distance": "cosine"
+}
