@@ -34,7 +34,7 @@ class index:
     
     def GET(self):
         input = web.input(query=None)
-        resp = {'status':0, 'hits':0, 'random':[], 'tagrel': []}
+        resp = {'status':0, 'hits':0, 'random':[], 'tagrel': [], 'feature':feature}
 
         if input.query:
             resp['status'] = 1

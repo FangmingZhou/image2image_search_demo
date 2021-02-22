@@ -1,8 +1,8 @@
 {
- "rootpath": "/home/xcx/VisualSearch",
+ "rootpath": "/home/zhoufm/VisualSearch",
  "max_hits": 50,
- "trainCollection": "tv2016train",
- "testCollection": "tv2017test",
- "feature": "pyresnext-101_rbps13k,flatten0_output,os",
+ "trainCollection": "msrvtt10k",
+ "testCollection": "msrvtt10k",
+ "feature": "mean_resnext101_resnet152",
  "distance": "cosine"
 }
